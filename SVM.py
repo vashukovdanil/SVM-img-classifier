@@ -1,6 +1,4 @@
 import os
-from sklearn.datasets import fetch_lfw_people
-
 
 # Графика
 import matplotlib as mpl
