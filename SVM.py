@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 # Работа с растровой графикой
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 # Обработка изображений
 from skimage.feature import hog
@@ -24,7 +24,7 @@ from sklearn.decomposition import PCA
 from sklearn.svm import SVC
 
 # Оценка
-from sklearn.metrics import roc_curve, auc, accuracy_score
+from sklearn.metrics import accuracy_score
 
 
 
